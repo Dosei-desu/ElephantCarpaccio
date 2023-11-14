@@ -6,6 +6,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("How many items?");
+
         int itemQuantity = 0;
             itemQuantity = input.nextInt();
 
