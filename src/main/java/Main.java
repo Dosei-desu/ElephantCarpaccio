@@ -6,10 +6,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("How many items?");
-
-        int itemQuantity = 0;
-            itemQuantity = input.nextInt();
-
+        int itemQuantity = input.nextInt();
 
         System.out.println("\nWhat is price per item?");
         double pricePerItem = input.nextDouble();
